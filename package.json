@@ -1,0 +1,32 @@
+{
+  "name": "stream-multi-mraow",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kane-thornwyrd/stream-multi-mraow.git"
+  },
+  "keywords": [
+    "twitch",
+    "youtube",
+    "chat",
+    "obs"
+  ],
+  "author": "Jena_Thornwyrd",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kane-thornwyrd/stream-multi-mraow/issues"
+  },
+  "homepage": "https://github.com/kane-thornwyrd/stream-multi-mraow#readme",
+  "dependencies": {
+    "env-cmd": "10.1.0",
+    "express": "5.0.1",
+    "googleapis": "144.0.0",
+    "tmi.js": "1.8.5"
+  }
+}
